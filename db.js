@@ -16,7 +16,7 @@ function getAllTasksFromDB() {
 }
 
 function addTasksToDB(taskname, duedate, assignedto) {
-    db.students.put({ taskname, duedate, assignedto })
+    db.tasks.put({ taskname, duedate, assignedto })
         .then(() => true)
         .catch(err => {
             alert("Error... " + err);
