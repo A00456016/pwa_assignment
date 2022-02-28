@@ -1,0 +1,19 @@
+{
+    "name": "PWA assignment",
+    "short_name": "pwa-assignment",
+    "description": "PWA assignment",
+    "start_url": "/",
+    "scope": ".",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#EEEEEE",
+    "orientation": "portrait",
+    "dir": "ltr",
+    "lang": "en-CA",
+    "icons": [
+        {
+            "src": "/icon.png",
+            "type": "image/png"
+        }
+    ]
+}
